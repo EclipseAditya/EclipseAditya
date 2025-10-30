@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&text=Aditya%20Pandey%20%7C%20Cybersecurity&fontAlignY=35&desc=eclipseaditya.tech&descAlign=62&descAlignY=60" alt="header" />
+  <img src="275149211-fab74104-e85f-44fe-aa92-9eb7aba51e30.gif" alt="header" />
 
   <h3>Offensive/Defensive Security • Malware Analysis • AI for Security</h3>
 
@@ -79,7 +79,7 @@ I see security as a continuous journey: each threat modeled, vulnerability mitig
 
 ## Certifications
 
-- Hack The Box Academy/Labs — 2025 — [profile](https://app.hackthebox.com/profile/1983969
+- Hack The Box Academy/Labs — 2025 — [profile](https://app.hackthebox.com/profile/1983969)
 - Google Cybersecurity (Coursera) — 2024 — [verify](https://coursera.org/share/cacb34655c5848a49dd77ad5dcfcbe5e)
 - TryHackMe Jr. Penetration Tester — 2024 — [verify](https://tryhackme.com/certificate/THM-UDA4PHSJHT)
 - Operating Systems Specialization — 2024 — [verify](https://coursera.org/share/29a1cbcae7be69a353103b0e32846480)
