@@ -69,14 +69,6 @@ I see security as a continuous journey: each threat modeled, vulnerability mitig
   
 </p>
 
-## Contribution snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg" />
-  <img alt="github-snake" src="assets/snake.svg" />
-</picture>
-
 ## Certifications
 
 - Hack The Box Academy/Labs — 2025 — [profile](https://app.hackthebox.com/profile/1983969)
