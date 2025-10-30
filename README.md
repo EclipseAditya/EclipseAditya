@@ -2,7 +2,7 @@
 
   <img src="275149211-fab74104-e85f-44fe-aa92-9eb7aba51e30.gif" alt="header" />
 
-  <h3>Offensive/Defensive Security • Malware Analysis • AI for Security</h3>
+  <h3>Offensive/Defensive Security • Building/Breaking </h3>
 
   <p>
     <a href="https://eclipseaditya.tech/portfolio/">🌐 Portfolio</a> •
