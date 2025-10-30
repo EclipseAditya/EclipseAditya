@@ -1,0 +1,38 @@
+name: Contribution Snake
+
+on:
+  schedule:
+    - cron: "33 4 * * *" # daily at 04:33 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        id: snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Copy artifacts to assets/
+        run: |
+          mkdir -p assets
+          cp dist/* assets/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update snake" || echo "No changes to commit"
+          git push
